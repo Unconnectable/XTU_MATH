@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{ctex} % 支持中文
+\usepackage{tcolorbox} % 用于添加颜色框
+\usepackage{hyperref} % 用于超链接
+\geometry{a4paper, margin=1in}
+\title{2023 级数学韶峰班选拔考试 \\ 数学分析试卷}
+\author{\href{https://github.com/Unconnectable}{filament}} % 加入作者超链接
+\date{2024 年 8 月 28 日}
+
+\begin{document}
+
+\maketitle
+
+\section*{考试方式：闭卷}
+\section*{考试时间：2 小时}
+
+\begin{enumerate}
+    \item (20 分) 
+    \begin{tcolorbox}[colframe=blue!50!black, colback=blue!5!white]
+    研究级数 $\sum_{n=1}^{\infty} \frac{\cos(n x)}{n}$ 的敛散性，其中 $x \in \mathbb{R}$.
+    \end{tcolorbox} \\\\\\\\
+    
+    \item (20 分) 
+    \begin{tcolorbox}[colframe=green!50!black, colback=green!5!white]
+    设 $I$ 为有限长度的区间。证明：区间 $I$ 上实函数 $f(x)$ 一致连续的充要条件是 $f(x)$ 把 Cauchy 列映成 Cauchy 列，即若 $\left\{x_{n}\right\}$ 是 $I$ 上 Cauchy 列，则 $\left\{f\left(x_{n}\right)\}$ 也是 Cauchy 列。
+    \end{tcolorbox} \\\\\\\\
+    
+    \item (20 分) 
+    \begin{tcolorbox}[colframe=red!50!black, colback=red!5!white]
+    讨论反常积分 $\int_{0}^{+\infty} \frac{\sin \left(x+\frac{1}{x}\right)}{x^{p}} \mathrm{d}x$ 的敛散性（包括绝对收敛、条件收敛、发散）。
+    \end{tcolorbox} \\\\\\\\
+    
+    \item (20 分) 
+    \begin{tcolorbox}[colframe=purple!50!black, colback=purple!5!white]
+    设 $u_{n}(x), v_{n}(x)$ 在 $(a, b)$ 上连续，且 $\left|u_{n}(x)\right| \leq v_{n}(x), n=1,2, \cdots$。证明：若 $\sum_{n=1}^{\infty} v_{n}(x)$ 在 $(a, b)$ 上收敛于一个连续函数，则 $\sum_{n=1}^{\infty} u_{n}(x)$ 在 $(a, b)$ 上也收敛于一个连续函数。
+    \end{tcolorbox} \\\\\\\\
+    
+    \item (20 分) 
+    \begin{tcolorbox}[colframe=orange!50!black, colback=orange!5!white]
+    证明 Stirling 公式: 
+    \[
+    n! \sim \sqrt{2 \pi n}\left(\frac{n}{e}\right)^{n} \quad (n \to \infty).
+    \]
+    \end{tcolorbox}
+\end{enumerate}
+
+\end{document}
