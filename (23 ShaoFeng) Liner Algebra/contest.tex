@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{ctex} % 支持中文
+\usepackage{tcolorbox} % 用于添加颜色框
+\usepackage{hyperref} % 用于超链接
+\geometry{a4paper, margin=1in}
+\title{ \textbf{2023 级数学韶峰班选拔考试 \\ 高等代数与解析几何试题} }
+\author{ \href{https://github.com/Unconnectable}{filament} \\ \href{https://github.com/Unconnectable/XTU_MATH}{仓库地址}}
+
+\date{2024 年 8 月 28 日}
+
+\begin{document}
+
+\maketitle
+
+\section*{考试方式：闭卷}
+\section*{考试时间：150 分钟}
+
+\begin{enumerate}
+    \item (20 分) 
+    \begin{tcolorbox}[colframe=blue!50!black, colback=blue!5!white]
+    设 $A, B \in M_{2}(\mathbb{R})$ , 满足 $A^{2}=B^{2}=E$, $A B+B A=0$ .\\
+    证明：存在可逆矩阵 $T \in M_{2}(\mathbb{R})$ 使 $T A T^{-1}=\left(\begin{array}{cc}1 & 0 \\ 0 & -1\end{array}\right)$, $T B T^{-1}=\left(\begin{array}{cc}0 & 1 \\ 1 & 0\end{array}\right)$ 。
+    \end{tcolorbox} 
+
+    \item (15 分) 
+    \begin{tcolorbox}[colframe=green!50!black, colback=green!5!white]
+    设 $A, B$ 是两个特征值都为正数的 $n$ 阶实方阵。\\
+    证明：如果 $A^{2}=B^{2}$ , 则 $A=B$ 。
+    \end{tcolorbox} \\\\\\\\
+    
+    \item (10 分) 
+    \begin{tcolorbox}[colframe=red!50!black, colback=red!5!white]
+    设 $S, T$ 均为 $n$ 阶对称正定矩阵。\\
+    证明：$\operatorname{det}(S+T) \geq \operatorname{det} S+\operatorname{det} T$ 。
+    \end{tcolorbox} \\\\\\\\
+    
+    \item (15 分) 
+    \begin{tcolorbox}[colframe=purple!50!black, colback=purple!5!white]
+    设 $V$ 是有限维欧氏空间，$V_{1}, V_{2}$ 是 $V$ 的非平凡子空间且 $V=V_{1} \oplus V_{2}$ 。设 $p_{1}, p_{2}$ 分别是 $V$ 到 $V_{1}, V_{2}$ 的正交投影，$\varphi=p_{1}+p_{2}$ 。\\
+    证明：$0<\operatorname{det} \varphi \leq 1$ 且 $\operatorname{det} \varphi=1$ 的充要条件是 $V_{1}$ 与 $V_{2}$ 正交。
+    \end{tcolorbox} \\\\\\\\
+    
+    \item (15 分) 
+    \begin{tcolorbox}[colframe=orange!50!black, colback=orange!5!white]
+    证明：4 维欧氏空间中不存在 5 个不同点, 使得每个点的坐标皆为整数，且任意两点距离相等。
+    \end{tcolorbox} \\\\\\\\
+    
+    \item (15 分) 
+    \begin{tcolorbox}[colframe=cyan!50!black, colback=cyan!5!white]
+    设 $V$ 是数域 $F$ 上的有限维线性空间，$\sigma \in \text{End} V$,\\
+    定义 $\text{ad } \sigma \in \text{End}(\text{End } V)$, $\text{ad } \sigma(\tau)=\sigma \tau-\tau \sigma$, 其中 End $V$ 是 $V$ 上所有线性变换所成的线性空间。
+    \end{tcolorbox} \\\\\\\\
+    
+    \item (10 分) 
+    \begin{tcolorbox}[colframe=magenta!50!black, colback=magenta!5!white]
+    在空间直角坐标系中，设椭球 $S$ 的方程为 $x^{2}+2y^{2}+3z^{2}=4$ 。\\
+    过动点 $P(x, y, z)$ 存在三条互相垂直的射线与椭球 $S$ 相切，求动点 $P$ 满足的方程。
+    \end{tcolorbox}
+\end{enumerate}
+
+\end{document}
